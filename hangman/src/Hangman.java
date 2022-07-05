@@ -8,5 +8,13 @@ public class Hangman {
         } catch (FileNotFoundException e) {
             System.out.println("File not found. Exception: "+e);
         }
+        /*
+        Example, guessed letter:
+        apple
+        _____
+        [a]
+        a____
+
+         */
     }
 }
